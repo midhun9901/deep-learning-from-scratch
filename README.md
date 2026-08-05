@@ -14,9 +14,9 @@ Hero*, in my own code and words.
 | Stage | Topic | Status |
 |-------|-------|--------|
 | [micrograd](micrograd/) | A scalar autograd engine + a tiny neural-net library | ✅ done |
-| makemore — bigram | Character-level language model: counts and a 1-layer net | 🔜 next |
-| makemore — MLP | An embedding + hidden-layer language model | ⬜ planned |
-| makemore — activations / BatchNorm | Making deeper nets trainable | ⬜ planned |
+| [makemore — bigram](makemore-bigram/) | Character-level language model: counts and a 1-layer net | ✅ done |
+| [makemore — MLP](makemore-mlp/) | An embedding + hidden-layer language model | ✅ done |
+| makemore — activations / BatchNorm | Making deeper nets trainable | 🔜 next |
 | nanoGPT | A small Transformer / GPT | ⬜ planned |
 
 ## The thread
@@ -30,8 +30,10 @@ on a framework. That continuity is what turns a set of exercises into one build.
 
 ```
 deep-learning-from-scratch/
-└── micrograd/          scalar autograd engine + MLP  (README + notebook)
-                        more stages land here as the series continues
+├── micrograd/          scalar autograd engine + MLP
+├── makemore-bigram/    bigram name model: counting and a 1-layer net
+└── makemore-mlp/       MLP name model with learned character embeddings
+                        (more stages land here as the series continues)
 ```
 
 Each stage folder contains a runnable notebook, a short README explaining the
