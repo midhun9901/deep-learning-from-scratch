@@ -1,11 +1,11 @@
 # makemore — MLP model
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/midhun9901/deep-learning-from-scratch/blob/main/makemore-mlp/makemore-mlp.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/midhun9901/deep-learning-from-scratch/blob/main/03-makemore-mlp/makemore-mlp.ipynb)
 
 A character-level language model that predicts the next letter from the previous
 **three**, using a small multi-layer perceptron with learned character
 embeddings. This follows the classic Bengio et al. (2003) architecture and is a
-direct step up from the [bigram model](../makemore-bigram/), which could only see
+direct step up from the [bigram model](../02-makemore-bigram/), which could only see
 one character back.
 
 ## The idea

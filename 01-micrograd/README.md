@@ -1,6 +1,6 @@
 # micrograd — a tiny autograd engine, from scratch
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/midhun9901/deep-learning-from-scratch/blob/main/micrograd/micrograd.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/midhun9901/deep-learning-from-scratch/blob/main/01-micrograd/micrograd.ipynb)
 
 A ~90-line automatic differentiation engine built from nothing — the same
 reverse-mode backpropagation that powers PyTorch and TensorFlow, reduced to its

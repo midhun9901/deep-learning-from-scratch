@@ -1,6 +1,6 @@
 # makemore — bigram model
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/midhun9901/deep-learning-from-scratch/blob/main/makemore-bigram/makemore-bigram.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/midhun9901/deep-learning-from-scratch/blob/main/02-makemore-bigram/makemore-bigram.ipynb)
 
 A character-level language model that learns to make up new names, trained on a
 dataset of **32,033** real names. It is built **two ways** — by counting, and as
@@ -37,7 +37,7 @@ Both approaches land in the same place, which is the whole lesson:
 Gradient descent rediscovers, from scratch, the same distribution the counts
 gave directly. The generated names are only vaguely name-like — a bigram can only
 see one character back — which is exactly the limitation that motivates the MLP
-in [part 2](../makemore-mlp/).
+in [part 2](../03-makemore-mlp/).
 
 ## What I learned
 
